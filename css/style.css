@@ -13,13 +13,13 @@ body {
 }
 .satanas {
     width: 100%;
-    height: 60rem;
+    height: 100vh;
 
 }
 .polver {
     display: flex;
     justify-content: start;
-    align-items: start;
+    align-items: end;
     background-color: #4B647C;
 }
 
@@ -35,7 +35,7 @@ body {
     
     
 }
-@keyframes corriendo {
+ @keyframes corriendo {
     from{
         top: 0; left: -25%;
     }
@@ -61,10 +61,10 @@ body {
         left: 80%;
     }
     90%{
-        left: 90%;
+        left: 85%;
     }
     95%{
-        left:95%; 
+        left:87%; 
     }
 
     to {
@@ -79,4 +79,4 @@ body {
     align-items: end;
 
 
-}
+} 
