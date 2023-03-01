@@ -19,17 +19,17 @@ body {
 .polver {
     display: flex;
     justify-content: start;
-    align-items: end;
+    align-items: start;
     background-color: #4B647C;
 }
 
 .nier {
-    width: 25rem;
+    width: 15rem;
     animation-duration:1s;
     animation-name: corriendo;
     position: relative;
     animation-delay: 8ms;
-    animation-iteration-count: 7;
+    animation-iteration-count: infinite;
     left: -25%;
     
     
